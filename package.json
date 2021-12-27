@@ -1,0 +1,27 @@
+{
+  "name": "gulp-browserify-tsify-browsersync-boilerplate",
+  "version": "0.0.1",
+  "private": false,
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "browserify": "^16.2.3",
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "node-sass": "^4.11.0",
+    "tsify": "^4.0.1",
+    "typescript": "^3.4.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.1"
+  },
+  "scripts": {
+    "sass": "gulp sass",
+    "start": "gulp watch",
+    "ts": "gulp ts",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "gulp-less": "^5.0.0"
+  }
+}
